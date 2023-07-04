@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    margin: 0px;
+}
+
+/************************************************************/
+
+.activity-img {
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#buffumville {
+    background-image: url("./images/buffumville.jpg");
+    background-size: cover;   
+}
+
+#farm {
+    background-image: url("./images/farm.jpg");
+    background-size: cover;
+}
+
+.guide-card {
+    display: flex;
+    background-color: #a98467;
+    width: 400px;
+    padding: 23px 13px;
+    margin: 50px 160px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px 0px #1D3557;
+}
+
+.guide-info {
+    color: #f0ead2;
+}
+
+/************************************************************/
+
+#activities {
+    background-color: #adc178;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#activity-list {
+    display: flex;
+    justify-content: center;
+}
+
+#activity-list > * {
+    flex: 1;
+}
+
+#hero {
+    background-image: url("./images/townhall.png");
+    background-size: cover;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero h1 {
+    background-color: #f0ead2;
+    color: #6c584c;
+    font-size: 3em;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+#hero h2 {
+    background-color: #dde5b6;
+    color: #6c584c;
+    padding: 2px 30px;
+    margin: 0px 15%;
+    border-radius: 10px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#memorial {
+    background-image: url("./images/memorial.jpg");
+    background-size: cover;
+}
+
+#profile {
+    width: 200px;
+    border-radius: inherit;
+}
+
+#tour-guide {
+    display: flex;
+    justify-content: center;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
